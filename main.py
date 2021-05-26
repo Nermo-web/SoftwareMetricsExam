@@ -19,7 +19,7 @@ class TestEvenOrOdd(unittest.TestCase):
     self.assertEqual(1.0, num)
  
  def testOddWithNegative(self):
-     #Testing odd with negative numbers
+     #Testing odd with negative numbers!
     self.assertTrue(isOdd(-3))
     self.assertFalse(isOdd(-4))
 
